@@ -90,9 +90,3 @@ print(f'Avg found: {sum(found)/len(found):.1f}/{env.num_users}')
 | Transformer heads | 4 |
 | Hidden dimension | 128 |
 
-## Notes
-
-- The environment is CPU-only (no GPU required)
-- The implementation uses PyTorch and runs on standard Python 3.9+
-- For best results, train with 100+ episodes
-- Results are logged every 50 episodes during training
